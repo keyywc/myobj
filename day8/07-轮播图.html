@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            float: left;
+            list-style: none;
+        }
+        img{
+            width: 400px;
+            height: 200px;
+        }
+        ul{
+            width: 1200px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            animation: mymove 10s infinite;
+        }
+        div{
+            width: 400px;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+        @keyframes mymove {
+            0%,27%{
+                left: 0;
+            }
+            34%,61%{
+                left: -400px;
+            }
+            68%,100%{
+                left: -800px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565600878064&di=cedd006792793d8ca6904426babea2f3&imgtype=0&src=http%3A%2F%2Fmp1.iqiyipic.com%2Fimage%2F20190807%2F31%2Fee%2Fppu_880249400102_pp_601_300_300.jpg" alt="">
+            </li>
+            <li>
+                <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2112922295,942695886&fm=26&gp=0.jpg" alt="">
+            </li>
+            <li>
+                <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4084728336,1572310426&fm=11&gp=0.jpg" alt="">
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
