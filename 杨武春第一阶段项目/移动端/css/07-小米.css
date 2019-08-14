@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: calc(100*100vw/750);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-img{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+.header-input{
+    display: flex;
+    height: 0.8rem;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+.header-input div img{
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    left:0.18rem;
+    top:0.22rem;
+}
+
+
+.header input{
+    width: 3rem;
+    padding-left: 1rem;
+    height: 0.5rem;
+    border: 0;
+}
+.content div img{
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.content{
+    display: flex;
+    padding: 0.1rem;
+    /* position: fixed; */
+}
+.content div{
+    font-size: 0.16rem;
+    color:#3c3c3c;
+    padding: 0.1rem;
+    margin: 0 0.08rem;
+    flex-shrink: 0;
+
+}   
+.content div img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.content div:first-child{
+    border-bottom: 2px solid #F14005;
+}
+.all{
+    position: fixed;
+    top:0rem;
+    left: 0rem;
+    z-index: 99;
+}
+.lunbotu{
+    margin-top: 1.6rem; 
+}
+.lunbotu-item li img{
+    width: 7.5rem;
+    height: 3.2rem;
+}
+.lunbotu-item li{
+    list-style: none;
+    width: 7.5rem;
+    height: 3.2rem;
+}
+.lunbotu-item{
+    display: flex;
+    overflow: hidden;
+    animation: mymove 10s infinite; 
+}
+@keyframes mymove {
+    0%,27%{
+        left: 0;
+    }
+    34%,61%{
+        left: -7.5rem;
+    }
+    68%,100%{
+        left: -15rem;
+    }
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav div img{
+    width: 1.5rem;
+    height: 1.58rem;
+}
+.section-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.section-nav-left img{
+    width: 3.72rem;
+    height: 5.28rem;
+}
+.section-nav-right-item li{
+    list-style: none;
+}
+.section-nav-right-item li img{
+    width: 3.72rem;
+    height: 2.5rem;
+}
+.section-nav1-item{
+    display: flex;
+}
+.section-nav1-item li{
+    list-style: none;
+}
+.section-nav1-item img{
+    width: 3.74rem;
+    height: 2.62rem;
+}
+.section-nav2 img{
+    width: 7.5rem;
+    height: 2.9rem;
+}
+
+
+
+
+
+
+
+
+
+
